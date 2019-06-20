@@ -245,7 +245,7 @@ Immediately after connecting, the client application may fetch the version / cap
 
 User side applications need to implement the signature handshaking required for establishing and authenticating secure protocomm sessions as per the security scheme configured for use (this is not needed when manager is configured to use protocomm security 0).
 
-See Unified Provisioning for more details about the secure handshake and encryption used. Applications must use the `.proto` files found under `components/protocomm/proto <https://github.com/espressif/esp-idf/components/protocomm/proto>`_, which define the Protobuf message structures supported by `prov-session` endpoint.
+See Unified Provisioning for more details about the secure handshake and encryption used. Applications must use the `.proto` files found under `components/protocomm/proto <https://github.com/espressif/esp-idf/tree/master/components/protocomm/proto>`_, which define the Protobuf message structures supported by `prov-session` endpoint.
 
 Once a session is established, Wi-Fi credentials are configured using the following set of commands, serialized as Protobuf messages (the corresponding `.proto` files can be found under `components/wifi_provisioning/proto <https://github.com/espressif/esp-idf/components/wifi_provisioning/proto>`_) :
 

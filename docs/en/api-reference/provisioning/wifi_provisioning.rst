@@ -231,12 +231,12 @@ Once connected to the device, the provisioning related protocomm endpoints can b
    * - Endpoint Name (BLE + GATT Server)
      - URI (SoftAP + HTTP Server + mDNS)
      - Description
+   * - prov-scan
+     - http://<mdns-hostname>.local/prov-scan
+     - Endpoint used for starting Wi-Fi scan and receiving scan results
    * - prov-session
      - http://<mdns-hostname>.local/prov-session
      - Security endpoint used for session establishment
-   * - prov-scan
-     - http://wifi-prov.local/prov-scan
-     - Endpoint used for starting Wi-Fi scan and receiving scan results
    * - prov-config
      - http://<mdns-hostname>.local/prov-config
      - Endpoint used for configuring Wi-Fi credentials on device
